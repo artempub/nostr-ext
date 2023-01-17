@@ -1,4 +1,4 @@
-### Nostr Signer Extension
+### Nostr Signer
 
 Use this to sign [Nostr](https://github.com/nostr-protocol/nostr) events on web-apps without having to give them your keys.
 
@@ -11,7 +11,7 @@ async window.nostr.nip04.encrypt(pubkey, plaintext): string // returns ciphertex
 async window.nostr.nip04.decrypt(pubkey, ciphertext): string // takes ciphertext+iv as specified in nip04
 ```
 
-## Develop
+### Develop
 
 To run the plugin from this code:
 
