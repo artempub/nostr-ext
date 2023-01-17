@@ -1,7 +1,3 @@
-# nos2x
-
-### notes and other stuff signed by an extension
-
 ### Nostr Signer Extension
 
 Use this to sign [Nostr](https://github.com/nostr-protocol/nostr) events on web-apps without having to give them your keys.
@@ -14,10 +10,6 @@ async window.nostr.getRelays(): { [url: string]: RelayPolicy } // returns a map 
 async window.nostr.nip04.encrypt(pubkey, plaintext): string // returns ciphertext+iv as specified in nip04
 async window.nostr.nip04.decrypt(pubkey, ciphertext): string // takes ciphertext+iv as specified in nip04
 ```
-
-## Install
-
-[Chrome Extension](https://chrome.google.com/webstore/detail/nos2x/kpgefcfmnafjgpblomihpgmejjdanjjp)
 
 ## Develop
 
